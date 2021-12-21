@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    flex: 0 1 18rem;
+    border: 2px solid #222;
+    padding: 15px;
+    background-color: hsl(216, 50%, 16%);
+    border: none;
+    border-radius:10px ;
+    box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.8);
+}
+.card figure{
+    width: 100;
+}
+.card figure img{
+    width: 100%;
+    border-radius: 8px;
+}
+.card h2{
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+}
+.card p{
+    font-size: 15px;
+    margin: 10px 0;
+    color: hsl(215, 51%, 70%);
+}
+.card .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex .flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.flex .flex1 span{
+    font-size: 15px;
+    color: hsl(178, 100%, 50%);
+}
+.card .line{
+     width: 100%;
+     height: 1px;
+     background-color: hsl(215, 32%, 27%);
+     margin: 20px 0;
+}
+.card .card_foot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.card .card_foot img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(221, 219, 219);
+}
+.card_foot h4{
+    font-size: 15px;
+}
+.card_foot h4 span{
+    color:hsl(178, 100%, 50%);
+}
